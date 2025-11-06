@@ -1,4 +1,4 @@
-/* Основные стили и сброс */
+/* Основні стилі та сброс */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
     min-height: 100vh;
 }
 
-/* ===== СТИЛИ САЙДБАРА ===== */
+/* ===== СТИЛІ САЙДБАР ===== */
 .sidebar {
     width: 240px;
     background-color: #0f0f0f;
@@ -73,7 +73,7 @@ body {
     color: #f1f1f1;
 }
 
-/* Навигация */
+/* Навігація */
 .main-nav, .secondary-nav {
     padding: 12px 0;
 }
@@ -114,7 +114,7 @@ body {
     margin: 12px 0;
 }
 
-/* ===== СТИЛИ ХЕДЕРА ===== */
+/* ===== СТИЛІ ХЕДЕРА ===== */
 .topbar {
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ body {
     min-width: 80px;
 }
 
-/* Контейнер поиска с новыми кнопками */
+/* Контейнер пошуку з новими кнопками */
 .search-container {
     display: flex;
     justify-content: center;
@@ -175,7 +175,7 @@ body {
     color: #aaa;
 }
 
-/* Кнопка очистки */
+/* Кнопка очищення */
 .clear-btn {
     border: none;
     background: transparent;
@@ -190,7 +190,7 @@ body {
     color: #f1f1f1;
 }
 
-/* Кнопка клавиатуры */
+/* Кнопка клавіатури */
 .keyboard-btn {
     border: none;
     background: transparent;
@@ -206,7 +206,7 @@ body {
     color: #f1f1f1;
 }
 
-/* Кнопка поиска */
+/* Кнопка пошуку */
 .search-btn {
     border: none;
     background: #303030;
@@ -220,7 +220,7 @@ body {
     background: #404040;
 }
 
-/* Кнопка микрофона */
+/* Кнопка микрофону */
 .mic-btn {
     background: #181818;
     border: none;
@@ -305,14 +305,14 @@ body {
     object-fit: cover;
 }
 
-/* ===== ОСНОВНАЯ ПАНЕЛЬ ===== */
+/* ===== ОСНОВНА ПАНЕЛЬ ===== */
 .main-panel {
     flex: 1;
     margin-left: 240px;
     min-height: 100vh;
 }
 
-/* ===== СЕТКА ВИДЕО ===== */
+/* ===== СІТКА ВІДЕО ===== */
 .content {
     padding: 24px;
 }
@@ -444,7 +444,7 @@ body {
     color: #aaa;
 }
 
-/* ===== АДАПТИВНОСТЬ ===== */
+/* ===== АДАПТИВНІСТЬ ===== */
 @media (max-width: 1200px) {
     .videos-grid {
         grid-template-columns: repeat(3, 1fr);
